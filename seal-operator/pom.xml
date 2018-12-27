@@ -8,8 +8,18 @@
         <version>v1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <developers>
+        <developer>
+            <id>haoxiaoyong</id>
+            <name>haoxiaoyong</name>
+            <email>hxyHelloWorld@163.com</email>
+            <url>http://www.haoxiaoyong.cn</url>
+        </developer>
+    </developers>
+    <groupId>cn.haoxiaoyong.personal.seal</groupId>
     <artifactId>seal-operator</artifactId>
+    <version>v1.0.0</version>
+    <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
