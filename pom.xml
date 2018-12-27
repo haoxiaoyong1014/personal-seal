@@ -97,9 +97,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git://https://github.com/haoxiaoyong1014/email-operator.git</connection>
-        <developerConnection>scm:git:https://github.com/haoxiaoyong1014/email-operator.git</developerConnection>
-        <url>https://github.com/haoxiaoyong1014/email-operator</url>
+        <connection>scm:git://https://github.com/haoxiaoyong1014/personal-seal.git</connection>
+        <developerConnection>scm:git:https://github.com/haoxiaoyong1014/personal-seal.git</developerConnection>
+        <url>https://github.com/haoxiaoyong1014/personal-seal</url>
         <tag>v${project.version}</tag>
     </scm>
 
