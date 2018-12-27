@@ -42,7 +42,7 @@ public class TestSeal {
 
     @Test
     public void testSealRectangle(){
-        SealFont sealFont = new SealFont("方术柯", FontFamily.Font_KaiTi, ColorFamily.Font_Black);
+        SealFont sealFont = new SealFont("方术柯哈", FontFamily.Font_KaiTi, ColorFamily.Font_Black);
         AbstractSealRectangle sealRectangle=new SealRectangle(sealFont);
         System.out.println(sealRectangle.getSavePath());
     }
