@@ -18,6 +18,10 @@
             <url>http://www.haoxiaoyong.cn</url>
         </developer>
     </developers>
+    <name>personal-seal</name>
+    <url>http://maven.apache.org</url>
+    <description>this is persional seal jar </description>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

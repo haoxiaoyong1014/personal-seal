@@ -8,6 +8,11 @@
         <version>v1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.haoxiaoyong.personal.seal</groupId>
+    <artifactId>seal-operator</artifactId>
+    <version>v1.0.0</version>
+    <packaging>jar</packaging>
     <developers>
         <developer>
             <id>haoxiaoyong</id>
@@ -16,10 +21,6 @@
             <url>http://www.haoxiaoyong.cn</url>
         </developer>
     </developers>
-    <groupId>cn.haoxiaoyong.personal.seal</groupId>
-    <artifactId>seal-operator</artifactId>
-    <version>v1.0.0</version>
-    <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
