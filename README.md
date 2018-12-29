@@ -7,7 +7,7 @@
 ```xml
 <groupId>cn.haoxiaoyong.personal.seal</groupId>
 <artifactId>seal-operator</artifactId>
-<version>v1.0.0</version>
+<version>v1.0.1</version>
 ```
 **生成正方形签章**
 

@@ -5,13 +5,13 @@
     <parent>
         <artifactId>personal-seal</artifactId>
         <groupId>cn.haoxiaoyong.personal.seal</groupId>
-        <version>v1.0.0</version>
+        <version>v1.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.haoxiaoyong.personal.seal</groupId>
     <artifactId>seal-operator</artifactId>
-    <version>v1.0.0</version>
+    <version>v1.0.1</version>
     <packaging>jar</packaging>
     <developers>
         <developer>

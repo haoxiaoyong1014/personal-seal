@@ -38,7 +38,8 @@ public class DrawFontRectangle {
         g2d.setFont(f);
         FontRenderContext context = g2d.getFontRenderContext();
         Rectangle2D rectangle = f.getStringBounds(font.getFontText().substring(0, 1), context);
-        float marginH = (float) (Math.abs(rectangle.getCenterY()) * 2 + marginW) + fixH;
+        float marginH = 180;
+        //float marginH = (float) (Math.abs(rectangle.getCenterY()) * 2 + marginW) + fixH;
         int oldW = marginW;
         //拉伸
         BufferedImage nbi = new BufferedImage(imageSize, imageSize, bi.getType());
@@ -48,7 +49,7 @@ public class DrawFontRectangle {
 
         //画长方形
         ng2d.setStroke(new BasicStroke(6));
-        ng2d.drawRect(10, 10, 280, 140);
+        ng2d.drawRect(10, 80, 280, 140);
         ng2d.dispose();
         bi = nbi;
 
@@ -85,7 +86,7 @@ public class DrawFontRectangle {
         g2d.setFont(f);
         FontRenderContext context = g2d.getFontRenderContext();
         Rectangle2D rectangle = f.getStringBounds(font.getFontText().substring(0, 1), context);
-        float marginH = (float) (Math.abs(rectangle.getCenterY()) * 2 + marginW) + fixH;
+        float marginH = 180;
         int oldW = marginW;
         //拉伸
         BufferedImage nbi = new BufferedImage(imageSize, imageSize, bi.getType());
@@ -95,7 +96,7 @@ public class DrawFontRectangle {
 
         //画长方形
         ng2d.setStroke(new BasicStroke(6));
-        ng2d.drawRect(10, 10, 280, 110);
+        ng2d.drawRect(10, 100, 280, 110);
         ng2d.dispose();
         bi = nbi;
 
@@ -103,6 +104,7 @@ public class DrawFontRectangle {
         g2d.setPaint(color);
         g2d.setFont(f);
         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+
 
         g2d.drawString(font.getFontText().substring(0, 1), marginW, marginH);
         marginW += Math.abs(rectangle.getCenterX()) * 2 + (font.getFontSpace() == null ? INIT_BEGIN : font.getFontSpace());
@@ -136,7 +138,7 @@ public class DrawFontRectangle {
         g2d.setFont(f);
         FontRenderContext context = g2d.getFontRenderContext();
         Rectangle2D rectangle = f.getStringBounds(font.getFontText().substring(0, 1), context);
-        float marginH = (float) (Math.abs(rectangle.getCenterY()) * 2 + marginW) + fixH;
+        float marginH = 160;
         int oldW = marginW;
         //拉伸
         BufferedImage nbi = new BufferedImage(imageSize, imageSize, bi.getType());
@@ -146,7 +148,7 @@ public class DrawFontRectangle {
 
         //画长方形
         ng2d.setStroke(new BasicStroke(6));
-        ng2d.drawRect(10, 10, 280, 90);
+        ng2d.drawRect(10, 100, 280, 90);
         ng2d.dispose();
         bi = nbi;
 
