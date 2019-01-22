@@ -35,14 +35,17 @@ public class TestSeal {
 
     @Test
     public void testSealSquare(){
-        SealFont sealFont = new SealFont("詹姆斯", FontFamily.Font_FangSong, ColorFamily.Font_Red);
+        SealFont sealFont = new SealFont("大风好是", FontFamily.Font_FangSong, ColorFamily.Font_Red);
         AbstractSealSquare sealSquare = new SealSquare(sealFont);
         System.out.println(sealSquare.getSavePath());
     }
 
+    /**
+     * 长方形
+     */
     @Test
     public void testSealRectangle(){
-        SealFont sealFont = new SealFont("你好", FontFamily.Font_KaiTi, ColorFamily.Font_Red);
+        SealFont sealFont = new SealFont("李四", FontFamily.Font_FangSong, ColorFamily.Font_Red);
         AbstractSealRectangle sealRectangle=new SealRectangle(sealFont);
         System.out.println(sealRectangle.getSavePath());
     }

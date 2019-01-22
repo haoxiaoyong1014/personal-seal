@@ -21,11 +21,11 @@ public interface Constant {
 
     public static final String PERSONAL_SEAL_SAVE_PATH = "/tmp/";
 
-    public static final String Font_HeiTi = "Heiti";
+    public static final String Font_HeiTi = "SimHei";//"Heiti";
 
-    public static final String Font_FangSong = "STFangsong";
+    public static final String Font_FangSong = "SimSun";//STFangsong
 
-    public static final String Font_KaiTi = "STKaiti";
+    public static final String Font_KaiTi = "KaiTi";//"STKaiti";
 
     public final static int INIT_BEGIN = 10;
 

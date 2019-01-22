@@ -49,7 +49,7 @@ public class DrawFontRectangle {
 
         //画长方形
         ng2d.setStroke(new BasicStroke(6));
-        ng2d.drawRect(10, 80, 280, 140);
+        ng2d.drawRect(10, 70, 280, 140);
         ng2d.dispose();
         bi = nbi;
 
@@ -117,7 +117,7 @@ public class DrawFontRectangle {
         return bi;
     }
     /**
-     * 画长方形3字
+     * 画长方形4字
      *
      * @param bi
      * @param g2d
@@ -134,7 +134,7 @@ public class DrawFontRectangle {
         fixH -= 9;
         int marginW = fixW + lineSize;
         //设置字体
-        Font f = new Font(font.getFontFamily(), Font.BOLD, 60);
+        Font f = new Font(font.getFontFamily(), Font.BOLD, 56);
         g2d.setFont(f);
         FontRenderContext context = g2d.getFontRenderContext();
         Rectangle2D rectangle = f.getStringBounds(font.getFontText().substring(0, 1), context);
@@ -148,7 +148,7 @@ public class DrawFontRectangle {
 
         //画长方形
         ng2d.setStroke(new BasicStroke(6));
-        ng2d.drawRect(10, 100, 280, 90);
+        ng2d.drawRect(10, 100, 280, 86);
         ng2d.dispose();
         bi = nbi;
 

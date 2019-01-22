@@ -6,10 +6,12 @@
     <groupId>cn.haoxiaoyong.personal.seal</groupId>
     <artifactId>personal-seal</artifactId>
     <packaging>pom</packaging>
-    <version>v1.0.1</version>
+    <version>v1.0.2</version>
+
     <modules>
         <module>seal-operator</module>
     </modules>
+
     <developers>
         <developer>
             <id>haoxiaoyong</id>
@@ -20,10 +22,11 @@
     </developers>
     <name>personal-seal</name>
     <url>http://maven.apache.org</url>
-    <description>this is persional seal jar </description>
+    <description>this is persional seal jar</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
     </properties>
 
     <build>
@@ -118,4 +121,5 @@
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
+
 </project>
