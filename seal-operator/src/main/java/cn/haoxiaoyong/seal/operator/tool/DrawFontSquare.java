@@ -28,10 +28,11 @@ public class DrawFontSquare  {
      */
     protected static BufferedImage drawThreeFont(BufferedImage bi, Graphics2D g2d, SealFont font, int lineSize,
                                                  int imageSize, int fixH, int fixW, Color color) {
-        fixH += 20;
+        fixH += 10;
         int marginW = fixW + lineSize;
         //设置字体
         Font f = new Font(font.getFontFamily(), Font.BOLD, 120);
+        System.out.println("字体......"+f.getName()+"....."+f.getFamily()+"....."+f.getFontName());
         g2d.setFont(f);
         FontRenderContext context = g2d.getFontRenderContext();
         Rectangle2D rectangle = f.getStringBounds(font.getFontText().substring(0, 1), context);
@@ -81,7 +82,7 @@ public class DrawFontSquare  {
      */
     protected static BufferedImage drawFourFont(BufferedImage bi, SealFont font, int lineSize, int imageSize, int fixH,
                                                                                      int fixW, Color color) {
-        fixH += 20;
+        fixH += 10;
         int marginW = fixW + lineSize;
         //拉伸
         BufferedImage nbi = new BufferedImage(imageSize, imageSize, bi.getType());
@@ -101,6 +102,8 @@ public class DrawFontSquare  {
         FontRenderContext context = g2d.getFontRenderContext();
 
         Font f = new Font(font.getFontFamily(), Font.BOLD, font.getFontSize());//font.getFontFamily()
+
+        System.out.println("字体......"+f.getName()+"....."+f.getFamily()+"....."+f.getFontName());
         g2d.setFont(f);
         Rectangle2D rectangle = f.getStringBounds(font.getFontText().substring(0, 1), context);
         float marginH = (float) (Math.abs(rectangle.getCenterY()) * 2 + marginW) + fixH;

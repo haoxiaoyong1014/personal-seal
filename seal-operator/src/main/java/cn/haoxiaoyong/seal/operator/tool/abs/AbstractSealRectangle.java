@@ -12,7 +12,6 @@ import java.awt.image.BufferedImage;
  */
 public abstract class AbstractSealRectangle implements SealRectangleProcessor {
 
-
     private SealFont sealFont;
 
 
