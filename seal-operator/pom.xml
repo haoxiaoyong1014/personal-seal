@@ -14,7 +14,7 @@
     </properties>
     <groupId>cn.haoxiaoyong.personal.seal</groupId>
     <artifactId>seal-operator</artifactId>
-    <version>v1.0.3</version>
+    <version>v1.0.4</version>
     <packaging>jar</packaging>
     <developers>
         <developer>

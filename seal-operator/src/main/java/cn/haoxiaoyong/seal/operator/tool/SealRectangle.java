@@ -39,7 +39,7 @@ public class SealRectangle extends AbstractSealRectangle implements Constant {
 
     @Override
     protected BufferedImage buildBi(int imageSize, SealFont sealFont) throws Exception {
-        if (sealFont == null || sealFont.getFontText().length() < 2 || sealFont.getFontText().length() > 4) {
+        if (sealFont == null || sealFont.getFontText().length() < 2 || sealFont.getFontText().length() >= 16) {
             throw new Exception("FontText.length illegal!");
         }
         //1.画布

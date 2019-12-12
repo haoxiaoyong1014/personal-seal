@@ -45,10 +45,11 @@ public class TestSeal {
 
     /**
      * 长方形
+     * 阿不力米提·阿
      */
     @Test
     public void testSealRectangle() {
-        SealFont sealFont = new SealFont("李四完饿", 3, ColorFamily.Font_Red);
+        SealFont sealFont = new SealFont("阿不力米", 3, ColorFamily.Font_Red);
         AbstractSealRectangle sealRectangle = new SealRectangle(sealFont);
         System.out.println(sealRectangle.getSavePath());
     }
